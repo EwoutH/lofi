@@ -1,0 +1,8 @@
+language: node_js
+
+script:
+ - yarn install
+ - yarn run dist
+ - yarn run build
+ - yarn run production
+ - yarn run start
